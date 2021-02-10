@@ -1,0 +1,10 @@
+__test__/mock/*
+node_modules
+flow-typed
+coverage
+dist
+report
+_scratch
+out
+public/templates
+public/live
