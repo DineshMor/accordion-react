@@ -12,6 +12,12 @@
 .accordion {
     width: 100%;
 }
+.accordion .info {
+    display: none;
+}
+.accordion .info.active {
+    display: block;
+}
 .accordion li{
     padding: 1rem 1.5rem;
     list-style-type: none;
@@ -31,4 +37,11 @@
     border-radius: 50%;
     padding: 10px;
     background: #eae6eb;
+}
+
+.heading {
+    margin-bottom: 20px;
+    background: #e6e6e6;
+    padding: 10px;
+    margin-top: 30px;
 }
